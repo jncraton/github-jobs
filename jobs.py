@@ -17,7 +17,7 @@ def pages():
     """
     A generator to yield successive pages from `get_page`
 
-    When an empty page is returned, the generator should raise `StopIteration`
+    When an empty page is returned, the generator should terminate
     """
 
     yield None
